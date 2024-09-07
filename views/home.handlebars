@@ -1,0 +1,9 @@
+{{! <h1>Hello Template Engine</h1> }}
+
+<form action = "/" method = "post" enctype = "multipart/form-data">
+    <h3>画像をアップロードする</h3>
+    <input type = "file" name = "imagefile" accept="image/*" />
+    <input type = "submit" />
+</form>
+{{! enctype(encode type) = multipart/form-dataで画像や動画などの複数のデータを扱えるようになる}}
+{{! accept = "image/*"でimage.gifやimage.png，image.jpegなどのいろんなファイルが許容される}}
